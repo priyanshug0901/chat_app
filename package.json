@@ -1,0 +1,16 @@
+{
+  "name": "chat_app",
+  "version": "1.0.0",
+  "description": "realtime chat app ->socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0"
+  }
+}
